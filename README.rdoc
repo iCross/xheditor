@@ -1,6 +1,6 @@
 = xheditor
 
-Description goes here.
+gem wrap for xheditor http://xheditor.com/.
 
 == Contributing to xheditor
  

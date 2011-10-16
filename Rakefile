@@ -14,6 +14,7 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
+  gem.version = "0.1.0"
   gem.name = "xheditor"
   gem.homepage = "http://github.com/zires/xheditor"
   gem.license = "MIT"
@@ -21,6 +22,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{xheditor is a online html editor}
   gem.email = "zshuaibin@gmail.com"
   gem.authors = ["zires"]
+  gem.files = FileList["Gemfile","LICENSE.txt","Rakefile","README.rdoc","{assets,lib,test}/**/*"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
